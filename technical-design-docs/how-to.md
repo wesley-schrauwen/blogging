@@ -153,4 +153,16 @@ For databases this part usually involves migrations. Running migrations in as sm
 
 The last part I focus on is the business logic. This part flows very naturally after the above is decided on.
 
-##### Scaling, reliability, 
+##### Scaling, reliability, maintainability, extensibility, usability, security
+
+_the ilities of architecture_
+
+Designing Data Intensive applications gives a nice overview of the _ilities_ of software architecture
+
+For most technical design docs each of these topics can be very complex. Analogies here in terms of cooking chicken
+aren't entirely useful.
+
+As a basic, maintainability would always include logging. 
+
+Unless the design document specifically covers a problem of scaling, flakiness, security or extensibility its probably
+better to not think too deeply on these topics in the document.

@@ -16,4 +16,5 @@ Figure 1: showing a basic sequence diagram
 The above example shows a very simple sequence diagram. The primary purpose of these diagrams is to just flow. The flow
 illustrated above shows a frontend, backend, database and blob store for a hypothetical authentication and upload workflow.
 
+### Alternative flows
 
